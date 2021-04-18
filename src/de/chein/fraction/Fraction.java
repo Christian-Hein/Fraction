@@ -11,7 +11,7 @@ public class Fraction {
             throws IllegalArgumentException {
        
             this.numerator = numerator;
-            if (denominator == 0) {
+            if (denominator === 0) {
                 throw new IllegalArgumentException("Dies ist nicht zulässig");
             }
             this.denominator = denominator;
